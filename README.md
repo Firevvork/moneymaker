@@ -5,7 +5,7 @@ A wiki of business models and industries insights.
 ## TODO
 
 - [x] Initial Astro Project
-- [ ] Add the simple UI
+- [x] Add the simple UI
 - [ ] Add i18n support
 - [ ] Add the first industry insights
 - [ ] Complete the Issue and PR templates
