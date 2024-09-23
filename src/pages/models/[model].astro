@@ -1,0 +1,38 @@
+---
+export function getStaticPaths() {
+  return [{ params: { model: "saas" } }];
+}
+import ModelLayout from "../../layouts/ModelLayout.astro";
+import ModelContent from "../../components/ModelContent.tsx";
+const { model } = Astro.params;
+const pageTitle = "MoneyMaker | " + model;
+---
+
+<ModelLayout title=`${pageTitle}`>
+  <main
+    class="w-full h-screen flex flex-col justify-center items-center py-20 px-36 gap-10"
+  >
+    <div class="flex flex-row justify-start w-full">
+      <a
+        href=".."
+        class="text-base flex flex-row gap-1 items-center justify-center"
+      >
+        <div class="text-xl font-mono">Back</div>
+      </a>
+    </div>
+    <div class="flex flex-row justify-start items-start gap-32 w-full">
+      <div class="flex flex-col justify-start items-start w-[35%] gap-10">
+        <div class="flex flex-col justify-start items-start">
+          <h1 class="text-3xl">SaaS</h1>
+          <h2 class="text-3xl">
+            —— The industry providing software as a service
+          </h2>
+        </div>
+        <div class="bg-green-700 h-[60vh] rounded-2xl w-full"></div>
+      </div>
+      <div class="flex flex-col justify-start items-start w-[55%] gap-10">
+        <ModelContent client:load />
+      </div>
+    </div>
+  </main>
+</ModelLayout>

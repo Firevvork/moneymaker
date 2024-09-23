@@ -4,29 +4,16 @@ import Card from "../components/Card.astro";
 ---
 
 <Layout title="Money Maker">
-  <main>
+  <main class="w-full flex flex-col items-center justify-center">
     <div class="mt-36 flex flex-col items-center justify-center gap-14">
-      <div class="flex flex-col pr-14 gap-3 items-center">
+      <div class="flex flex-col gap-3 items-center mr-[85px]">
         <h1 class="text-3xl font-mono">
           Business Models and Industries Insights
         </h1>
         <h1 class="text-3xl font-mono">For all you need</h1>
       </div>
-      <div
-        class="flex flex-row gap-10 items-center justify-center bg-red-400 pr-10 pl-1 py-4 rounded-xl mr-10"
-        style="background-image: url(https://i.pinimg.com/564x/93/ed/5c/93ed5cd6ec7b2948463903f6f6f0473c.jpg);"
-      >
-        <img
-          src="https://media.cnn.com/api/v1/images/stellar/prod/200224095740-warren-buffett-0918-file.jpg?q=w_3000,h_2498,x_0,y_0,c_fill"
-          alt="Money Maker Logo"
-          class="overflow-clip rounded-full w-24 h-24 object-cover scale-[160%] shadow-2xl border-4 border-white"
-        />
-        <div class="flex flex-col items-end font-mono text-xl">
-          <div>"Invest in what you know."</div>
-          <div>-- Warren Buffet</div>
-        </div>
-      </div>
-      <div class="grid grid-cols-4 gap-8">
+      <div class="grid grid-cols-5 gap-8">
+        <Card emoji="💽" title="SaaS" />
         <Card emoji="🏊" title="Sport Retail" />
         <Card emoji="🐱" title="Pet Store" />
         <Card emoji="🚗" title="Car Dealership" />

@@ -5,9 +5,10 @@ interface Props {
 }
 
 const { emoji, title } = Astro.props;
+const title_lower = title.toLowerCase();
 ---
 
 <div class="font-mono w-40 flex flex-col gap-1">
   <div class="text-3xl cursor-default">{emoji}</div>
-  <a href="a" class="hover:text-blue-700 hover:font-bold">{title}</a>
+  <a href=`/models/${title_lower}` class="hover:text-blue-700">{title}</a>
 </div>
