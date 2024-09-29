@@ -21,8 +21,8 @@ import ModelLayout from "../../layouts/ModelLayout.astro";
 import ModelContent from "../../components/ModelContent";
 const { industry } = Astro.params;
 import { getEntry } from "astro:content";
-const saas = await getEntry("industry", industry);
-const pageTitle = saas.data.name + " Industry" + " | MoneyMaker";
+const industryEntity = await getEntry("industry", industry);
+const pageTitle = industryEntity.data.name + " Industry" + " | MoneyMaker";
 ---
 
 <ModelLayout title=`${pageTitle}`>
@@ -50,18 +50,18 @@ const pageTitle = saas.data.name + " Industry" + " | MoneyMaker";
         class="flex flex-col justify-start items-start w-[35%] h-full gap-10"
       >
         <div class="flex flex-col justify-start items-start">
-          <h1 class="text-3xl">{saas.data.name}</h1>
+          <h1 class="text-3xl">{industryEntity?.data.name}</h1>
           <h2 class="text-3xl">
-            —— {saas.data.intro}
+            —— {industryEntity?.data.intro}
           </h2>
         </div>
         <div class="bg-green-700 h-full rounded-2xl w-full"></div>
       </div>
       <div class="flex flex-col justify-start items-start w-[55%] gap-10">
         <ModelContent
-          BusinessModel={saas.data.businessModel}
-          IndustryInsights={saas.data.industryInsights}
-          FamousProducts={saas.data.famousProducts}
+          BusinessModel={industryEntity?.data.businessModel}
+          IndustryInsights={industryEntity?.data.industryInsights}
+          FamousProducts={industryEntity?.data.famousProducts}
           client:load
         />
       </div>
