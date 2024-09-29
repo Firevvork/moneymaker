@@ -6,32 +6,48 @@ import ModelLayout from "../../layouts/ModelLayout.astro";
 import ModelContent from "../../components/ModelContent.tsx";
 const { model } = Astro.params;
 const pageTitle = "MoneyMaker | " + model;
+
+import { getEntry } from "astro:content";
+const saas = await getEntry("industry", "SaaS");
 ---
 
 <ModelLayout title=`${pageTitle}`>
   <main
     class="w-full h-screen flex flex-col justify-center items-center py-20 px-36 gap-10"
   >
-    <div class="flex flex-row justify-start w-full">
+    <div class="flex flex-row justify-between w-full pr-20">
       <a
         href=".."
         class="text-base flex flex-row gap-1 items-center justify-center"
       >
         <div class="text-xl font-mono">Back</div>
       </a>
+      <a
+        href="https://github.com/Firevvork/moneymaker"
+        class="text-base flex flex-row gap-1 items-center justify-center"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="text-xl font-mono">Commit</div>
+      </a>
     </div>
     <div class="flex flex-row justify-start items-start gap-32 w-full">
       <div class="flex flex-col justify-start items-start w-[35%] gap-10">
         <div class="flex flex-col justify-start items-start">
-          <h1 class="text-3xl">SaaS</h1>
+          <h1 class="text-3xl">{saas.data.name}</h1>
           <h2 class="text-3xl">
-            —— The industry providing software as a service
+            —— {saas.data.intro}
           </h2>
         </div>
         <div class="bg-green-700 h-[60vh] rounded-2xl w-full"></div>
       </div>
       <div class="flex flex-col justify-start items-start w-[55%] gap-10">
-        <ModelContent client:load />
+        <ModelContent
+          BusinessModel={saas.data.businessModel}
+          IndustryInsights={saas.data.industryInsights}
+          FamousProducts={saas.data.famousProducts}
+          client:load
+        />
       </div>
     </div>
   </main>
