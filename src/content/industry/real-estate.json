@@ -1,0 +1,123 @@
+{
+  "name": "Real Estate",
+  "intro": "Industry focused on the development, sale, lease, and management of land and buildings.",
+  "businessModel": [
+    {
+      "title": "Value Proposition",
+      "content": "The real estate industry provides essential spaces for living, working, and leisure. It creates value by developing land, constructing buildings, and facilitating transactions that connect buyers and sellers or landlords and tenants."
+    },
+    {
+      "title": "Customer Segments",
+      "content": "Customers include individual homebuyers, renters, commercial tenants (businesses, retailers), investors, developers, and government agencies."
+    },
+    {
+      "title": "Revenue Streams",
+      "content": "Revenue streams vary depending on the segment: developers earn from property sales; landlords collect rent; brokers earn commissions; property managers charge fees; and REITs generate income from property portfolios."
+    },
+    {
+      "title": "Cost Structure",
+      "content": "Major costs include land acquisition, construction materials and labor, financing costs, marketing and advertising, property taxes, maintenance, and insurance."
+    },
+    {
+      "title": "Key Activities",
+      "content": "Core activities encompass land acquisition and development, construction, property marketing and sales, leasing and tenant management, property management, and investment and asset management."
+    },
+    {
+      "title": "Key Resources",
+      "content": "Essential resources include land parcels, construction materials and equipment, skilled labor (architects, engineers, contractors), financial capital, market knowledge, and regulatory expertise."
+    },
+    {
+      "title": "Key Partnerships",
+      "content": "Real estate companies often collaborate with financial institutions (banks, mortgage lenders), construction companies, architects, real estate agents, legal professionals, and government agencies."
+    },
+    {
+      "title": "Customer Relationships",
+      "content": "Building strong customer relationships involves understanding client needs, providing transparent and ethical services, ensuring property quality, and offering responsive management and support."
+    },
+    {
+      "title": "Channels",
+      "content": "Real estate transactions and services are facilitated through online platforms (property listings, virtual tours), real estate agencies, property developers, and direct marketing efforts."
+    }
+  ],
+  "industryInsights": [
+    {
+      "title": "Accounting Key Metrics",
+      "content": "Key performance indicators include property prices and rental rates, vacancy rates, absorption rates (leasing activity), capitalization rates (investment returns), and construction costs."
+    },
+    {
+      "title": "Industry History",
+      "content": "Real estate has been a fundamental human need and investment asset for centuries. The industry has evolved alongside population growth, urbanization, economic cycles, and technological advancements."
+    },
+    {
+      "title": "Industry Trends",
+      "content": "The industry is influenced by trends such as urbanization, demographic shifts, technological advancements (proptech), sustainability concerns, and evolving housing preferences."
+    },
+    {
+      "title": "Industry Future",
+      "content": "The future of real estate will be shaped by factors like affordability challenges, changing demographics, technological disruption, and the need for sustainable and resilient urban development."
+    }
+  ],
+  "famousProducts": [
+    {
+      "area": "Americas",
+      "products": [
+        {
+          "name": "Zillow's Online Real Estate Platform",
+          "description": "A leading real estate marketplace providing property listings, valuations, and resources for buyers, sellers, and renters."
+        },
+        {
+          "name": "Lennar Corporation's Homebuilding Services",
+          "description": "One of the largest homebuilders in the United States, offering a range of housing options from entry-level to luxury homes."
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "products": [
+        {
+          "name": "Rightmove's Property Search Portal",
+          "description": "The UK's largest real estate portal, connecting homebuyers and renters with properties for sale and to let."
+        },
+        {
+          "name": "Unibail-Rodamco-Westfield's Shopping Centre Portfolio",
+          "description": "A global leader in shopping centre development and management, operating a portfolio of flagship destinations across Europe and the United States."
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "products": [
+        {
+          "name": "Keppel Land's Residential and Commercial Developments",
+          "description": "A leading real estate developer in Asia, with a focus on sustainable and innovative projects across various asset classes."
+        },
+        {
+          "name": "Dalian Wanda Group's Real Estate and Entertainment Empire",
+          "description": "A Chinese conglomerate with vast holdings in real estate, entertainment, tourism, and other sectors, known for its large-scale developments."
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "products": [
+        {
+          "name": "Growthpoint Properties' Commercial Property Portfolio",
+          "description": "A leading South African REIT with a diversified portfolio of office, retail, and industrial properties."
+        }
+      ]
+    },
+    {
+      "area": "Australia",
+      "products": [
+        {
+          "name": "Goodman Group's Industrial Property Development and Management",
+          "description": "A global leader in industrial property, specializing in developing and managing logistics and warehousing facilities."
+        },
+        {
+          "name": "Mirvac Group's Residential, Office, and Retail Developments",
+          "description": "A leading Australian property group with a diverse portfolio of residential, office, and retail developments across major cities."
+        }
+      ]
+    }
+  ]
+}

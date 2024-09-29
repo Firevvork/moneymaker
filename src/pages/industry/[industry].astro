@@ -1,14 +1,28 @@
 ---
 export function getStaticPaths() {
-  return [{ params: { model: "saas" } }];
+  return [
+    { params: { industry: "saas" } },
+    { params: { industry: "bank" } },
+    { params: { industry: "car-rental" } },
+    { params: { industry: "video-games" } },
+    { params: { industry: "warehousing" } },
+    { params: { industry: "oil-and-gas" } },
+    { params: { industry: "consulting" } },
+    { params: { industry: "fast-food" } },
+    { params: { industry: "machine-tool" } },
+    { params: { industry: "real-estate" } },
+    { params: { industry: "media" } },
+    { params: { industry: "insurance" } },
+    { params: { industry: "textile" } },
+    { params: { industry: "shipbuilding" } },
+  ];
 }
 import ModelLayout from "../../layouts/ModelLayout.astro";
-import ModelContent from "../../components/ModelContent.tsx";
-const { model } = Astro.params;
-const pageTitle = "MoneyMaker | " + model;
-
+import ModelContent from "../../components/ModelContent";
+const { industry } = Astro.params;
 import { getEntry } from "astro:content";
-const saas = await getEntry("industry", "SaaS");
+const saas = await getEntry("industry", industry);
+const pageTitle = saas.data.name + " Industry" + " | MoneyMaker";
 ---
 
 <ModelLayout title=`${pageTitle}`>
@@ -31,15 +45,17 @@ const saas = await getEntry("industry", "SaaS");
         <div class="text-xl font-mono">Commit</div>
       </a>
     </div>
-    <div class="flex flex-row justify-start items-start gap-32 w-full">
-      <div class="flex flex-col justify-start items-start w-[35%] gap-10">
+    <div class="flex flex-row justify-start items-start gap-32 w-full h-full">
+      <div
+        class="flex flex-col justify-start items-start w-[35%] h-full gap-10"
+      >
         <div class="flex flex-col justify-start items-start">
           <h1 class="text-3xl">{saas.data.name}</h1>
           <h2 class="text-3xl">
             —— {saas.data.intro}
           </h2>
         </div>
-        <div class="bg-green-700 h-[60vh] rounded-2xl w-full"></div>
+        <div class="bg-green-700 h-full rounded-2xl w-full"></div>
       </div>
       <div class="flex flex-col justify-start items-start w-[55%] gap-10">
         <ModelContent

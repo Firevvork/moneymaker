@@ -1,0 +1,139 @@
+{
+  "name": "Warehousing",
+  "intro": "Industry providing storage and logistics services for goods in transit or awaiting distribution.",
+  "businessModel": [
+    {
+      "title": "Value Proposition",
+      "content": "Warehousing acts as a critical link in the supply chain, providing businesses with a safe and efficient way to store goods, manage inventory, and streamline distribution. It allows companies to optimize their logistics operations and meet customer demands effectively."
+    },
+    {
+      "title": "Customer Segments",
+      "content": "Warehousing services cater to a wide range of businesses across various sectors, including manufacturers, retailers, wholesalers, e-commerce companies, and importers/exporters."
+    },
+    {
+      "title": "Revenue Streams",
+      "content": "Revenue is generated primarily through storage fees (based on space occupied and duration), handling fees (receiving, picking, packing), and value-added services (labeling, packaging, light assembly)."
+    },
+    {
+      "title": "Cost Structure",
+      "content": "Major costs include warehouse rent or lease, utilities, labor (warehouse staff, forklift operators), equipment (forklifts, conveyors), technology (WMS software), and insurance."
+    },
+    {
+      "title": "Key Activities",
+      "content": "Core activities involve receiving goods, storage and inventory management, order picking and packing, shipping and dispatching, and providing value-added services."
+    },
+    {
+      "title": "Key Resources",
+      "content": "Essential resources include warehouse facilities (strategically located), storage equipment (racks, shelves, bins), material handling equipment, warehouse management systems (WMS), and a skilled workforce."
+    },
+    {
+      "title": "Key Partnerships",
+      "content": "Warehousing companies often partner with transportation providers (trucking companies, freight forwarders), logistics companies, and technology providers to offer integrated supply chain solutions."
+    },
+    {
+      "title": "Customer Relationships",
+      "content": "Building strong customer relationships involves providing reliable and efficient services, accurate inventory management, timely order fulfillment, and competitive pricing."
+    },
+    {
+      "title": "Channels",
+      "content": "Customers typically engage with warehousing services through direct sales, online platforms, logistics brokers, and industry referrals."
+    }
+  ],
+  "industryInsights": [
+    {
+      "title": "Accounting Key Metrics",
+      "content": "Key performance indicators include warehouse utilization rate, inventory turnover rate, order fulfillment accuracy, on-time delivery rate, and cost per square foot of storage."
+    },
+    {
+      "title": "Industry History",
+      "content": "Warehousing has been an integral part of trade and commerce for centuries. From simple storage facilities to sophisticated distribution centers, the industry has evolved alongside advancements in transportation, technology, and globalization."
+    },
+    {
+      "title": "Industry Trends",
+      "content": "The warehousing industry is being shaped by trends such as e-commerce growth, automation and robotics, data analytics and artificial intelligence, and the rise of on-demand warehousing and fulfillment services."
+    },
+    {
+      "title": "Industry Future",
+      "content": "The future of warehousing will be defined by continued technological advancements, increasing demand for flexible and scalable solutions, and a greater focus on sustainability and environmental responsibility."
+    }
+  ],
+  "famousProducts": [
+    {
+      "area": "Americas",
+      "products": [
+        {
+          "name": "Amazon Fulfillment Services (Amazon)",
+          "description": "A comprehensive suite of warehousing, fulfillment, and shipping services offered by Amazon to businesses of all sizes."
+        },
+        {
+          "name": "ProLogis Essentials (ProLogis)",
+          "description": "Provides modern, high-quality warehouse facilities in strategic locations, catering to a wide range of customer needs."
+        },
+        {
+          "name": "Exel Direct (DHL Supply Chain)",
+          "description": "Offers customized warehousing and distribution solutions for the consumer goods, retail, and healthcare industries."
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "products": [
+        {
+          "name": "DSV Solutions (DSV)",
+          "description": "Provides comprehensive logistics and warehousing solutions, including warehousing, transportation, and value-added services."
+        },
+        {
+          "name": "Kuehne+Nagel Contract Logistics (Kuehne + Nagel)",
+          "description": "Offers a wide range of contract logistics services, including warehousing, transportation, and supply chain management."
+        },
+        {
+          "name": "XPO Logistics Warehousing (XPO Logistics)",
+          "description": "Provides scalable warehousing and distribution solutions for various industries, with a focus on technology and automation."
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "products": [
+        {
+          "name": "SF Express Warehouse Services (SF Express)",
+          "description": "Offers integrated warehousing, distribution, and express delivery services, known for its extensive network and efficient operations."
+        },
+        {
+          "name": "JD Logistics Open Platform (JD.com)",
+          "description": "Provides a range of logistics services, including warehousing, transportation, and technology solutions, leveraging JD.com's e-commerce expertise."
+        },
+        {
+          "name": "Cainiao Network Smart Logistics (Alibaba Group)",
+          "description": "Offers technology-driven logistics solutions, including warehousing, transportation, and supply chain optimization, supporting Alibaba's global ecosystem."
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "products": [
+        {
+          "name": "Bidvest Panalpina Logistics (Bidvest Group)",
+          "description": "Provides international freight forwarding, warehousing, and supply chain solutions, with a strong presence in African markets."
+        },
+        {
+          "name": "Bolloré Logistics Warehousing (Bolloré Logistics)",
+          "description": "Offers a range of logistics and warehousing services, including warehousing, transportation, and customs brokerage, with expertise in African markets."
+        }
+      ]
+    },
+    {
+      "area": "Australia",
+      "products": [
+        {
+          "name": "Linfox Logistics Warehousing (Linfox)",
+          "description": "Provides integrated logistics solutions, including warehousing, transportation, and supply chain management, with a strong presence in the Australian market."
+        },
+        {
+          "name": "Toll Global Logistics Warehousing (Toll Group)",
+          "description": "Offers a comprehensive range of logistics services, including warehousing, transportation, and global forwarding, with a focus on the Asia-Pacific region."
+        }
+      ]
+    }
+  ]
+}

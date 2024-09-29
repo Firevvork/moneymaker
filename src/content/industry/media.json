@@ -1,0 +1,131 @@
+{
+  "name": "Media",
+  "intro": "Industry responsible for creating, producing, distributing, and delivering content across various platforms, shaping information, entertainment, and culture.",
+  "businessModel": [
+    {
+      "title": "Value Proposition",
+      "content": "Media companies inform, entertain, and engage audiences by providing news, information, stories, and experiences across various formats. They play a crucial role in shaping public opinion, cultural trends, and consumer behavior."
+    },
+    {
+      "title": "Customer Segments",
+      "content": "Audiences are diverse and fragmented, ranging from traditional news consumers to digital natives, encompassing various demographics, interests, and consumption habits."
+    },
+    {
+      "title": "Revenue Streams",
+      "content": "Revenue models vary significantly: advertising (print, digital, broadcast), subscriptions (print, online, streaming), licensing fees (content, intellectual property), events and sponsorships, and direct sales (books, music, movies)."
+    },
+    {
+      "title": "Cost Structure",
+      "content": "Major costs include content creation (journalism, production), talent (actors, writers, musicians), marketing and distribution, technology infrastructure, and salaries and benefits."
+    },
+    {
+      "title": "Key Activities",
+      "content": "Core activities involve content creation, production, editing, distribution, marketing, audience engagement, and platform management."
+    },
+    {
+      "title": "Key Resources",
+      "content": "Essential resources include creative talent, intellectual property (content libraries, brands), production facilities, distribution networks, and technology platforms (websites, apps)."
+    },
+    {
+      "title": "Key Partnerships",
+      "content": "Media companies collaborate with content creators, technology providers, advertisers, distributors (cable companies, app stores), and telecommunications companies."
+    },
+    {
+      "title": "Customer Relationships",
+      "content": "Building audience engagement involves delivering compelling content, fostering online communities, personalizing user experiences, and responding to audience feedback."
+    },
+    {
+      "title": "Channels",
+      "content": "Media content reaches audiences through various channels: print (newspapers, magazines), broadcast (television, radio), digital (websites, social media), streaming services, and mobile apps."
+    }
+  ],
+  "industryInsights": [
+    {
+      "title": "Accounting Key Metrics",
+      "content": "Key performance indicators include audience size and reach, engagement metrics (views, shares, comments), subscription numbers, advertising revenue, and content production costs."
+    },
+    {
+      "title": "Industry History",
+      "content": "The media industry has evolved from print media (newspapers, books) to broadcast media (radio, television) and digital media (internet, mobile). It has played a central role in shaping information dissemination, entertainment consumption, and cultural norms."
+    },
+    {
+      "title": "Industry Trends",
+      "content": "The industry faces challenges and opportunities driven by digital disruption, the rise of streaming services, social media's influence, the demand for personalized content, and the evolving media consumption habits of audiences."
+    },
+    {
+      "title": "Industry Future",
+      "content": "The future of media will be shaped by technological advancements, evolving business models, and the need to deliver high-quality content that resonates with increasingly fragmented and discerning audiences."
+    }
+  ],
+  "famousProducts": [
+    {
+      "area": "Americas",
+      "products": [
+        {
+          "name": "ESPN Sports Network",
+          "description": "A dominant force in sports broadcasting, covering a wide range of events and attracting a massive audience."
+        },
+        {
+          "name": "The New York Times",
+          "description": "A prestigious newspaper with a long history of journalistic excellence, setting the standard for news coverage and analysis."
+        },
+        {
+          "name": "Netflix Streaming Service",
+          "description": "A global streaming giant offering a vast library of movies, TV shows, and original content, transforming how audiences consume entertainment."
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "products": [
+        {
+          "name": "BBC World Service",
+          "description": "A renowned international broadcaster reaching a global audience with news, information, and cultural programming in multiple languages."
+        },
+        {
+          "name": "Canal+ Pay Television Network",
+          "description": "A leading European pay-TV provider, known for its premium content, including movies, sports, and original series."
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "products": [
+        {
+          "name": "Singapore Press Holdings (SPH)",
+          "description": "A leading media organization in Singapore, publishing newspapers, magazines, and online news platforms, holding a significant influence in the Singaporean media landscape."
+        },
+        {
+          "name": "SBS (Seoul Broadcasting System)",
+          "description": "One of Korea's major television networks, producing popular dramas, variety shows, and news programs, holding a significant influence in the Korean media landscape."
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "products": [
+        {
+          "name": "Nollywood Film Industry",
+          "description": "Nigeria's prolific film industry, known for its direct-to-video productions, diverse storytelling, and growing international recognition."
+        },
+        {
+          "name": "Radio France Internationale (RFI)",
+          "description": "A French public radio service broadcasting internationally, providing news and information in multiple languages."
+        }
+      ]
+    },
+    {
+      "area": "Australia",
+      "products": [
+        {
+          "name": "Australian Broadcasting Corporation (ABC)",
+          "description": "Australia's national public broadcaster, providing television, radio, and online content across news, entertainment, and educational programming."
+        },
+        {
+          "name": "News Corp Australia",
+          "description": "A major media conglomerate with a significant presence in newspapers, magazines, and digital platforms, shaping public opinion and news consumption."
+        }
+      ]
+    }
+  ]
+}

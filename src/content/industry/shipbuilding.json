@@ -1,0 +1,119 @@
+{
+  "name": "Shipbuilding",
+  "intro": "Industry responsible for designing, constructing, and repairing ships and other vessels, playing a vital role in global trade and transportation.",
+  "businessModel": [
+    {
+      "title": "Value Proposition",
+      "content": "Shipbuilding companies provide the means for transporting goods and people across the world's oceans and waterways. They build a variety of vessels, from massive cargo ships to luxurious cruise liners, supporting global trade, tourism, and exploration."
+    },
+    {
+      "title": "Customer Segments",
+      "content": "Customers include shipping companies, cruise lines, oil and gas companies, navies, governments, and private individuals seeking yachts or leisure boats."
+    },
+    {
+      "title": "Revenue Streams",
+      "content": "Revenue is generated primarily from the sale of new vessels. Additional income comes from ship repair and maintenance services, conversion and modernization projects, and the sale of spare parts."
+    },
+    {
+      "title": "Cost Structure",
+      "content": "Major costs include raw materials (steel, aluminum), components (engines, navigation systems), labor (skilled welders, engineers, electricians), shipyard facilities, and energy consumption."
+    },
+    {
+      "title": "Key Activities",
+      "content": "Core activities involve ship design and engineering, procurement of materials and components, hull construction, outfitting and installation of systems, testing and sea trials, and delivery to customers."
+    },
+    {
+      "title": "Key Resources",
+      "content": "Essential resources include shipyards with dry docks and fabrication facilities, skilled labor (shipwrights, welders, engineers), design and engineering expertise, and access to capital-intensive equipment (cranes, welding machines)."
+    },
+    {
+      "title": "Key Partnerships",
+      "content": "Shipbuilding companies collaborate with naval architects, marine engineers, equipment suppliers, classification societies (safety and standards), and financial institutions."
+    },
+    {
+      "title": "Customer Relationships",
+      "content": "Building strong customer relationships involves delivering high-quality vessels on time and within budget, providing reliable after-sales service, and adapting to evolving customer needs and technological advancements."
+    },
+    {
+      "title": "Channels",
+      "content": "Shipbuilding contracts are typically awarded through competitive bidding processes, with direct sales to shipping companies, governments, and other customers."
+    }
+  ],
+  "industryInsights": [
+    {
+      "title": "Accounting Key Metrics",
+      "content": "Key performance indicators include order book (value of contracted orders), shipbuilding capacity, delivery schedules, project profitability, and safety records."
+    },
+    {
+      "title": "Industry History",
+      "content": "Shipbuilding has been a vital industry for millennia, evolving from wooden boats to massive steel vessels. It has played a crucial role in exploration, trade, warfare, and globalization."
+    },
+    {
+      "title": "Industry Trends",
+      "content": "The industry is influenced by trends such as globalization of trade, demand for fuel-efficient and environmentally friendly vessels, technological advancements (automation, digitalization), and geopolitical factors."
+    },
+    {
+      "title": "Industry Future",
+      "content": "The future of shipbuilding will be shaped by the growth of maritime trade, environmental regulations, technological innovations (autonomous ships, alternative fuels), and the global geopolitical landscape."
+    }
+  ],
+  "famousProducts": [
+    {
+      "area": "Americas",
+      "products": [
+        {
+          "name": "Huntington Ingalls Industries' Aircraft Carriers",
+          "description": "A major US shipbuilder specializing in military vessels, particularly aircraft carriers, for the United States Navy."
+        },
+        {
+          "name": "Royal Caribbean International's Oasis-Class Cruise Ships",
+          "description": "The world's largest passenger ships, known for their innovative design, onboard amenities, and capacity to carry thousands of passengers."
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "products": [
+        {
+          "name": "Mærsk Triple E Class Container Ships",
+          "description": "Among the largest container ships ever built, known for their fuel efficiency and capacity to transport vast quantities of goods."
+        },
+        {
+          "name": "Fincantieri's Luxury Yachts",
+          "description": "An Italian shipbuilder renowned for its craftsmanship and design of luxurious mega-yachts for discerning clients."
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "products": [
+        {
+          "name": "Hyundai Heavy Industries' Ultra Large Container Vessels (ULCVs)",
+          "description": "A South Korean shipbuilding giant, leading the world in the construction of massive container ships."
+        },
+        {
+          "name": "Japan Marine United Corporation (JMUC)",
+          "description": "A major Japanese shipbuilder specializing in a wide range of vessels, including tankers, bulk carriers, and container ships."
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "products": [
+        {
+          "name": "Damen Shipyards Group",
+          "description": "A Dutch shipbuilding company with a strong presence in Africa, building a variety of vessels, including tugs, workboats, and patrol boats."
+        }
+      ]
+    },
+    {
+      "area": "Australia",
+      "products": [
+        {
+          "name": "Austal's High-Speed Catamarans",
+          "description": "An Australian shipbuilder specializing in high-speed catamarans for passenger and military applications, known for their innovative designs."
+        }
+      ]
+    }
+  ]
+}

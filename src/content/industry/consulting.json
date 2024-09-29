@@ -1,0 +1,101 @@
+{
+  "name": "Consulting",
+  "intro": "The industry providing professional advice and services to organizations to improve their performance and efficiency.",
+  "businessModel": [
+    {
+      "title": "Value Proposition",
+      "content": "Consulting firms offer specialized expertise and objective perspectives to help organizations solve complex problems, develop strategies, improve operations, and achieve their goals. They act as trusted advisors, providing insights and recommendations based on data analysis and industry best practices."
+    },
+    {
+      "title": "Customer Segments",
+      "content": "Clients span across industries and sectors, including businesses of all sizes (from startups to multinational corporations), government agencies, non-profit organizations, and public institutions."
+    },
+    {
+      "title": "Revenue Streams",
+      "content": "Revenue is generated primarily through consulting fees, which are typically structured as hourly rates, fixed project fees, or retainers. Other income sources include workshops and training programs, software and technology implementations, and intellectual property licensing."
+    },
+    {
+      "title": "Cost Structure",
+      "content": "Major costs include consultant salaries and benefits, travel and accommodation expenses, research and analysis, technology infrastructure, and marketing and business development."
+    },
+    {
+      "title": "Key Activities",
+      "content": "Core activities involve understanding client needs, conducting research and analysis, developing recommendations and solutions, implementing strategies, and providing ongoing support and guidance."
+    },
+    {
+      "title": "Key Resources",
+      "content": "Essential resources include a team of highly skilled and experienced consultants with diverse expertise, industry knowledge, analytical tools and methodologies, and a strong network of contacts."
+    },
+    {
+      "title": "Key Partnerships",
+      "content": "Consulting firms often collaborate with technology providers, research institutions, industry associations, and other specialized consultancies to enhance their service offerings and reach a wider client base."
+    },
+    {
+      "title": "Customer Relationships",
+      "content": "Building strong client relationships involves establishing trust, demonstrating expertise, delivering tangible results, providing clear communication, and fostering long-term partnerships."
+    },
+    {
+      "title": "Channels",
+      "content": "Clients typically engage with consulting firms through referrals, industry events and conferences, online platforms and directories, and direct marketing efforts."
+    }
+  ],
+  "industryInsights": [
+    {
+      "title": "Accounting Key Metrics",
+      "content": "Key performance indicators include utilization rate (percentage of consultant time billable), project profitability, client satisfaction scores, employee retention rates, and revenue per consultant."
+    },
+    {
+      "title": "Industry History",
+      "content": "The modern consulting industry emerged in the early 20th century, evolving from engineering and accounting firms to specialized management consultancies. It has played a significant role in shaping business practices, driving innovation, and influencing strategic decision-making."
+    },
+    {
+      "title": "Industry Trends",
+      "content": "The consulting industry is being transformed by trends such as digital disruption, data analytics and artificial intelligence, the rise of boutique consulting firms, and increasing demand for specialized expertise in areas like sustainability and cybersecurity."
+    },
+    {
+      "title": "Industry Future",
+      "content": "The future of consulting will be shaped by the evolving needs of clients, technological advancements, and the ability of firms to adapt to a rapidly changing business environment. Expect to see more agile and specialized consulting models, greater emphasis on data-driven insights, and a focus on delivering measurable business outcomes."
+    }
+  ],
+  "famousProducts": [
+    {
+      "area": "Americas",
+      "products": [
+        {
+          "name": "McKinsey & Company's 'Three Horizons' Framework",
+          "description": "A strategic planning tool that helps organizations manage current performance while exploring new growth opportunities."
+        },
+        {
+          "name": "Bain & Company's 'Net Promoter Score' (NPS)",
+          "description": "A widely used metric for measuring customer loyalty and satisfaction, based on their likelihood to recommend a company's products or services."
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "products": [
+        {
+          "name": "Boston Consulting Group's 'Growth-Share Matrix'",
+          "description": "A portfolio management tool that helps companies analyze their business units and prioritize investments based on market share and growth potential."
+        },
+        {
+          "name": "Roland Berger's 'Digital Transformation Strategy'",
+          "description": "A comprehensive approach to digital transformation, helping companies leverage technology to enhance their business models, operations, and customer experiences."
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "products": [
+        {
+          "name": "Oliver Wyman's 'China Financial Services Strategy'",
+          "description": "Provides insights and recommendations for financial institutions navigating the rapidly evolving Chinese market."
+        },
+        {
+          "name": "Nomura Research Institute's 'Digital Transformation Consulting'",
+          "description": "Helps businesses in Asia leverage digital technologies to transform their operations, enhance customer engagement, and drive innovation."
+        }
+      ]
+    }
+  ]
+}

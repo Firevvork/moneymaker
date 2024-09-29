@@ -1,0 +1,127 @@
+{
+  "name": "Banking",
+  "intro": "Industry providing financial services related to storing, lending, and managing money.",
+  "businessModel": [
+    {
+      "title": "Value Proposition",
+      "content": "Banks act as intermediaries within the economy, connecting depositors with borrowers and facilitating financial transactions. They provide security and liquidity for funds, while also enabling economic growth through credit creation."
+    },
+    {
+      "title": "Customer Segments",
+      "content": "Banks serve a diverse customer base, ranging from individuals to multinational corporations, and including small businesses, large corporations, governments, and non-profit organizations."
+    },
+    {
+      "title": "Revenue Streams",
+      "content": "Banks generate revenue primarily through the difference between interest earned on loans and interest paid on deposits (Net Interest Income). Other revenue sources include fees for services like account maintenance, transactions, wealth management, and investment banking activities."
+    },
+    {
+      "title": "Cost Structure",
+      "content": "Major bank costs include interest expenses on deposits, operating expenses (salaries, rent, technology), regulatory compliance costs, and provisions for loan losses."
+    },
+    {
+      "title": "Key Activities",
+      "content": "Core banking activities encompass deposit taking, lending (commercial, consumer, mortgage), payment processing, trade finance, foreign exchange services, and risk management."
+    },
+    {
+      "title": "Key Resources",
+      "content": "Essential bank resources include their branch networks, ATMs, online and mobile banking platforms, trading infrastructure,  vault and security systems, and a skilled workforce."
+    },
+    {
+      "title": "Key Partnerships",
+      "content": "Banks collaborate with other financial institutions, credit rating agencies, technology providers, and payment networks to expand their service offerings and geographical reach."
+    },
+    {
+      "title": "Customer Relationships",
+      "content": "Banks aim to build lasting customer relationships by providing personalized financial advice, convenient banking channels (branches, online, mobile), and a comprehensive suite of products and services."
+    },
+    {
+      "title": "Channels",
+      "content": "Banks interact with customers through various channels, including physical branches, ATMs, online banking platforms, mobile applications, telephone banking, and dedicated relationship managers."
+    }
+  ],
+  "industryInsights": [
+    {
+      "title": "Accounting Key Metrics",
+      "content": "Key bank performance indicators include Net Interest Margin (NIM), Return on Assets (ROA), Return on Equity (ROE), Efficiency Ratio, Loan-to-Deposit Ratio, and Non-Performing Loan Ratio. These metrics assess profitability, efficiency, asset quality, and capital adequacy."
+    },
+    {
+      "title": "Industry History",
+      "content": "Banking has ancient roots, with early forms of lending and money changing dating back millennia. Modern banking emerged in the 14th century in Italian city-states. The industry has undergone significant transformation driven by economic cycles, technological advancements, globalization, and regulatory reforms."
+    },
+    {
+      "title": "Industry Trends",
+      "content": "The banking sector faces continuous evolution driven by factors like Fintech disruption, evolving customer expectations, and increasing regulatory scrutiny. Key trends include the growth of digital banking, open banking initiatives, the application of artificial intelligence and machine learning, exploration of blockchain technology, and a greater emphasis on sustainable finance practices."
+    },
+    {
+      "title": "Industry Future",
+      "content": "The future of banking will be shaped by the ongoing digital revolution, changing consumer behaviors, and a dynamic regulatory environment. Banks that successfully navigate these challenges by embracing digital transformation, prioritizing customer-centricity, and adapting to evolving regulations will be well-positioned for future success."
+    }
+  ],
+  "famousProducts": [
+    {
+      "area": "Americas",
+      "products": [
+        {
+          "name": "Goldman Sachs Investment Banking Services",
+          "description": "Provides a wide range of services including mergers and acquisitions advisory, underwriting for debt and equity offerings, and restructuring advice to corporations, governments, and other institutions."
+        },
+        {
+          "name": "JPMorgan Chase Commercial Banking",
+          "description": "Offers financial solutions including lending, treasury management, investment banking, and asset management services to businesses with annual revenue typically ranging from $20 million to $2 billion."
+        }
+      ]
+    },
+    {
+      "area": "Europe",
+      "products": [
+        {
+          "name": "HSBC Trade Finance",
+          "description": "Facilitate international trade transactions by providing financial instruments and services such as letters of credit, guarantees, export financing, and supply chain financing."
+        },
+        {
+          "name": "Deutsche Bank Corporate & Investment Bank",
+          "description": "Offers a range of products and services in sales and trading, mergers and acquisitions, debt and equity capital markets origination, and transaction banking."
+        }
+      ]
+    },
+    {
+      "area": "Asia",
+      "products": [
+        {
+          "name": "ICBC Small and Micro Business Loans",
+          "description": "Provides financing solutions tailored to the needs of small and micro enterprises, including working capital loans, fixed asset loans, and microcredit."
+        },
+        {
+          "name": "MUFG Global Corporate Banking",
+          "description": "Offers a comprehensive range of financial services to large corporate clients, including lending, project finance, trade finance, cash management, and foreign exchange."
+        }
+      ]
+    },
+    {
+      "area": "Africa",
+      "products": [
+        {
+          "name": "Standard Bank Business Banking",
+          "description": "Provides a range of banking solutions for businesses of all sizes, including transactional banking, lending, investments, and insurance."
+        },
+        {
+          "name": "Ecobank Trade Finance",
+          "description": "Facilitates regional and international trade for businesses in Africa by offering products such as letters of credit, documentary collections, and trade finance loans."
+        }
+      ]
+    },
+    {
+      "area": "Australia",
+      "products": [
+        {
+          "name": "Commonwealth Bank Business Lending",
+          "description": "Offers various types of loans to businesses, including term loans, overdraft facilities, and commercial mortgages, to support their growth and expansion plans."
+        },
+        {
+          "name": "ANZ Institutional",
+          "description": "Provides a wide range of financial solutions for institutional clients, including corporate and government clients, financial institutions, and charities."
+        }
+      ]
+    }
+  ]
+}

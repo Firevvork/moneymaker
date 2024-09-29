@@ -1,14 +1,14 @@
 ---
 interface Props {
   emoji: string;
-  title: string;
+  name: string;
+  anchor: string;
 }
 
-const { emoji, title } = Astro.props;
-const title_lower = title.toLowerCase();
+const { emoji, name, anchor } = Astro.props;
 ---
 
 <div class="font-mono w-40 flex flex-col gap-1">
   <div class="text-3xl cursor-default">{emoji}</div>
-  <a href=`/models/${title_lower}` class="hover:text-blue-700">{title}</a>
+  <a href=`/industry/${anchor}` class="hover:text-blue-700">{name}</a>
 </div>
