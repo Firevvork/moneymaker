@@ -22,7 +22,7 @@ import ModelContent from "../../components/ModelContent";
 const { industry } = Astro.params;
 import { getEntry } from "astro:content";
 const industryEntity = await getEntry("industry", industry);
-const pageTitle = industryEntity.data.name + " Industry" + " | MoneyMaker";
+const pageTitle = industryEntity!.data.name + " Industry" + " | MoneyMaker";
 ---
 
 <ModelLayout title=`${pageTitle}`>
