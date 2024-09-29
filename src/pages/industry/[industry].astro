@@ -58,12 +58,16 @@ const pageTitle = industryEntity.data.name + " Industry" + " | MoneyMaker";
         <div class="bg-green-700 h-full rounded-2xl w-full"></div>
       </div>
       <div class="flex flex-col justify-start items-start w-[55%] gap-10">
-        <ModelContent
-          BusinessModel={industryEntity?.data.businessModel}
-          IndustryInsights={industryEntity?.data.industryInsights}
-          FamousProducts={industryEntity?.data.famousProducts}
-          client:load
-        />
+        {
+          industryEntity && (
+            <ModelContent
+              BusinessModel={industryEntity.data.businessModel}
+              IndustryInsights={industryEntity.data.industryInsights}
+              FamousProducts={industryEntity.data.famousProducts}
+              client:load
+            />
+          )
+        }
       </div>
     </div>
   </main>
